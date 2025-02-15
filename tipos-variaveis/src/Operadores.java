@@ -1,22 +1,47 @@
 public class Operadores {
   public static void main(String[] args) {
 
-    // Operador ternário
-    int a, b;
-    a = 5;
-    b = 6;
+    // Operadores relacionais
+    String nomeUm = "Thiago";
+    String nomeDois = new String("Thiago");
+    System.out.println(nomeUm == nomeDois);
+    System.out.println(nomeUm.equals(nomeDois));
+    // .equals() é usado para objetos ou textos
 
-    String resultado = "";
+    int numero1 = 1;
+    int numero2 = 2;
 
-    resultado = a == b ? "Verdadeiro" : "Falso";
-    System.out.println(resultado);
+    boolean simNao = numero1 == numero2;
+    System.out.println(simNao);
 
-    if (a == b) {
-      resultado = "Verdadeiro";
-    } else {
-      resultado = "Falso";
+    simNao = numero1 != numero2;
+    System.out.println(simNao);
+
+    simNao = numero1 > numero2;
+    System.out.println(simNao);
+
+    if (numero1 < numero2) {
+      System.out.println("A condição é verdadeira.");
     }
-    System.out.println(resultado);
+
+    ////////////////////////////////////////////
+
+    // Operador ternário
+    // int a, b;
+    // a = 5;
+    // b = 6;
+
+    // String resultado = "";
+
+    // resultado = a == b ? "Verdadeiro" : "Falso";
+    // System.out.println(resultado);
+
+    // if (a == b) {
+    // resultado = "Verdadeiro";
+    // } else {
+    // resultado = "Falso";
+    // }
+    // System.out.println(resultado);
 
     ///////////////////////////////////////
 
