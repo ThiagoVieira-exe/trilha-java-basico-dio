@@ -1,32 +1,41 @@
 public class Operadores {
   public static void main(String[] args) {
 
-    // Operadores relacionais
-    String nomeUm = "Thiago";
-    String nomeDois = new String("Thiago");
-    System.out.println(nomeUm == nomeDois);
-    System.out.println(nomeUm.equals(nomeDois));
-    // .equals() é usado para objetos ou textos
+    // operadores lógicos
+    boolean condicao1 = true;
+    boolean condicao2 = false;
 
-    int numero1 = 1;
-    int numero2 = 2;
+    System.out.println(condicao1 && condicao2);
+    System.out.println(condicao1 || condicao2);
 
-    boolean simNao = numero1 == numero2;
-    System.out.println(simNao);
+    ///////////////////////////////////////////////
 
-    simNao = numero1 != numero2;
-    System.out.println(simNao);
+    // // Operadores relacionais
+    // String nomeUm = "Thiago";
+    // String nomeDois = new String("Thiago");
+    // System.out.println(nomeUm == nomeDois);
+    // System.out.println(nomeUm.equals(nomeDois));
+    // // .equals() é usado para objetos ou textos
 
-    simNao = numero1 > numero2;
-    System.out.println(simNao);
+    // int numero1 = 1;
+    // int numero2 = 2;
 
-    if (numero1 < numero2) {
-      System.out.println("A condição é verdadeira.");
-    }
+    // boolean simNao = numero1 == numero2;
+    // System.out.println(simNao);
+
+    // simNao = numero1 != numero2;
+    // System.out.println(simNao);
+
+    // simNao = numero1 > numero2;
+    // System.out.println(simNao);
+
+    // if (numero1 < numero2) {
+    // System.out.println("A condição é verdadeira.");
+    // }
 
     ////////////////////////////////////////////
 
-    // Operador ternário
+    // // Operador ternário
     // int a, b;
     // a = 5;
     // b = 6;
@@ -45,7 +54,7 @@ public class Operadores {
 
     ///////////////////////////////////////
 
-    // Operador de negação
+    // // Operador de negação
     // boolean variavel = true;
     // System.out.println(variavel);
     // variavel = !variavel;
@@ -67,7 +76,7 @@ public class Operadores {
 
     /////////////////////////////////////////////
 
-    // Operadores Unários
+    // // Operadores Unários
     // int numero = 5;
     // System.out.println(-numero);
     // System.out.println(numero);
@@ -80,7 +89,7 @@ public class Operadores {
 
     ///////////////////////////////////////////
 
-    // Operador de concatenação
+    // // Operador de concatenação
     // String concatenacao = "?";
     // concatenacao = 1 + 1 + 1 + "1";
     // System.out.println(concatenacao);
